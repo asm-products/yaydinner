@@ -1,0 +1,8 @@
+sudo su - postgres
+./createuser -dlP yd
+   ydadmin
+   ydadmin
+exit
+/opt/local/lib/postgresql94/bin/createdb -h 127.0.0.1 -U yd -W yaydinner
+   ydadmin
+
